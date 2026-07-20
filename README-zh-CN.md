@@ -21,16 +21,16 @@
 ### 方法一：通过 Release 压缩包安装（推荐，含 BGM 音频文件）
 1. **下载模组文件**：请至本项目右侧的 Releases 区域，下载最新版本的 `.zip` 压缩包。
 2. **部署游戏目录**：解压后，将文件依据以下路径放入游戏文件夹中：
-   * 将 `Mod_TianTuiXing.js` 放入：`游戏文件夹/js/plugins/`
+   * 将 `Mod_TianTuiXing_zh_CN.js` 放入：`游戏文件夹/js/plugins/`
    * 将 `Mod_Lei_Heng_Theme.ogg` 放入：`游戏文件夹/audio/bgm/`
 3. **手动注册插件**：打开 `游戏文件夹/js/plugins.js`，在其中的 `var $plugins = [` 后面加上一行：
-   `{"name":"Mod_TianTuiXing","status":true,"description":"天退星刀","parameters":{}},`
+   `{"name":"Mod_TianTuiXing_zh_CN","status":true,"description":"天退星刀","parameters":{}},`
 
 ### 方法二：手动创建文件与复制源码（适合无压缩包、纯脚本安装）
-1. **新建脚本文件**：直接进入你的 `游戏文件夹/js/plugins/` 目录，在此处新建一个文本文件，并重命名为 `Mod_TianTuiXing.js`（请确保文件后缀名为 `.js` 而非 `.txt`）。
-2. **粘贴模组源码**：使用文本编辑器（如记事本、VS Code）打开该文件，将本项目中的 `Mod_TianTuiXing.js` 代码完整复制并粘贴至其中后保存。
+1. **新建脚本文件**：直接进入你的 `游戏文件夹/js/plugins/` 目录，在此处新建一个文本文件，并重命名为 `Mod_TianTuiXing_zh_CN.js`（请确保文件后缀名为 `.js` 而非 `.txt`）。
+2. **粘贴模组源码**：使用文本编辑器（如记事本、VS Code）打开该文件，将本项目中的 `Mod_TianTuiXing_zh_CN.js` 代码完整复制并粘贴至其中后保存。
 3. **手动注册插件**：打开 `游戏文件夹/js/plugins.js`，在其中的 `var $plugins = [` 后面加上一行：
-   `{"name":"Mod_TianTuiXing","status":true,"description":"天退星刀","parameters":{}},`
+   `{"name":"Mod_TianTuiXing_zh_CN","status":true,"description":"天退星刀","parameters":{}},`
 
 ⚠️ **注意事项**
 
